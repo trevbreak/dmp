@@ -1,4 +1,4 @@
-# Blogger to Yearly Reflection Generator
+# Digital Memory Palace - A Blogger to Yearly Reflection Generator
 
 Transform your Blogger XML exports into beautiful, book-style yearly reflection pages with interactive tag filtering.
 
