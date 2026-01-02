@@ -1,0 +1,18 @@
+Blogger XML to Yearly Reflection - Generation Report
+============================================================
+
+Generated: 2026-01-03 08:40:40
+Year: 2026
+
+Statistics:
+  Total Posts: 2
+  Posts with Images: 0
+  Total Tags: 5
+  Total Images: 0
+
+Top 20 Tags:
+   1. #work                            1
+   2. ba ngoi                          1
+   3. repairs                          1
+   4. garage                           1
+   5. tip                              1

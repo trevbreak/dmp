@@ -1,0 +1,158 @@
+2026-01-03 08:20:14,961 - __main__ - INFO - Processing year: 2023
+2026-01-03 08:20:14,961 - __main__ - INFO - Input XML: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\2023 Export\blog-12-30-2023.xml
+2026-01-03 08:20:14,961 - __main__ - INFO - Output directory: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\Blog Reflections
+2026-01-03 08:20:14,961 - __main__ - INFO - 
+[1/8] Parsing XML file...
+2026-01-03 08:20:14,962 - parsers.xml_parser - INFO - Parsing XML file: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\2023 Export\blog-12-30-2023.xml
+2026-01-03 08:20:15,002 - parsers.xml_parser - INFO - Found 1877 total entries in XML
+2026-01-03 08:20:15,031 - parsers.xml_parser - INFO - Extracted 1825 blog posts
+2026-01-03 08:20:54,685 - __main__ - INFO - Processing year: 2023
+2026-01-03 08:20:54,685 - __main__ - INFO - Input XML: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\2023 Export\blog-12-30-2023.xml
+2026-01-03 08:20:54,685 - __main__ - INFO - Output directory: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\Blog Reflections
+2026-01-03 08:20:54,685 - __main__ - INFO - 
+[1/8] Parsing XML file...
+2026-01-03 08:20:54,685 - parsers.xml_parser - INFO - Parsing XML file: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\2023 Export\blog-12-30-2023.xml
+2026-01-03 08:20:54,715 - parsers.xml_parser - INFO - Found 1877 total entries in XML
+2026-01-03 08:20:54,737 - parsers.xml_parser - INFO - Extracted 1825 blog posts
+2026-01-03 08:20:54,738 - __main__ - INFO - 
+[2/8] Parsing dates from titles...
+2026-01-03 08:20:54,785 - __main__ - INFO - 
+[3/8] Filtering posts for year 2023...
+2026-01-03 08:20:54,786 - __main__ - INFO - 
+[4/8] Sorting posts chronologically...
+2026-01-03 08:20:54,786 - __main__ - INFO - 
+[5/8] Processing content...
+2026-01-03 08:20:54,876 - __main__ - INFO - 
+[6/8] Downloading images...
+2026-01-03 08:20:54,879 - processors.image_downloader - INFO - Processing images for 357 posts
+2026-01-03 08:20:54,879 - processors.image_downloader - INFO - Found 83 posts with images
+2026-01-03 08:20:54,879 - processors.image_downloader - INFO - Total images to download: 159
+2026-01-03 08:21:45,272 - processors.image_downloader - INFO - Progress: 20/159 images processed
+2026-01-03 08:22:10,601 - processors.image_downloader - INFO - Progress: 30/159 images processed
+2026-01-03 08:23:51,263 - processors.image_downloader - INFO - Progress: 70/159 images processed
+2026-01-03 08:24:43,519 - processors.image_downloader - INFO - Progress: 90/159 images processed
+2026-01-03 08:26:22,195 - processors.image_downloader - INFO - Progress: 130/159 images processed
+2026-01-03 08:26:44,682 - processors.image_downloader - INFO - Progress: 140/159 images processed
+2026-01-03 08:27:30,189 - processors.image_downloader - INFO - Downloaded 159 unique images
+2026-01-03 08:27:30,190 - processors.image_downloader - INFO - Failed downloads: 0
+2026-01-03 08:27:30,190 - __main__ - INFO - 
+[7/8] Building tag index...
+2026-01-03 08:27:30,190 - processors.tag_indexer - INFO - Building tag index from 357 posts
+2026-01-03 08:27:30,191 - processors.tag_indexer - INFO - Indexed 476 unique tags
+2026-01-03 08:27:30,191 - processors.tag_indexer - INFO - Top 10 tags: [('work', 162), ('aj', 64), ('kai', 58), ('park', 26), ('lunch', 21), ('coffee', 20), ('julie', 19), ('rangeside', 17), ('beer', 14), ('dad', 13)]
+2026-01-03 08:27:30,191 - __main__ - INFO - 
+[8/8] Generating output files...
+2026-01-03 08:27:30,191 - generators.json_generator - INFO - Generating JSON data for 357 posts
+2026-01-03 08:27:30,203 - generators.json_generator - INFO - Generated posts.json: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\Blog Reflections\2023\data\posts.json
+2026-01-03 08:27:30,203 - generators.json_generator - INFO - Generated metadata.json: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\Blog Reflections\2023\data\metadata.json
+2026-01-03 08:27:30,204 - generators.html_generator - INFO - Generating reflection page for 2023
+2026-01-03 08:27:30,205 - generators.html_generator - INFO - Copied static assets to c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\Blog Reflections\2023\assets
+2026-01-03 08:27:30,207 - generators.html_generator - INFO - Generated reflection.html: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\Blog Reflections\2023\reflection.html
+2026-01-03 08:27:30,207 - generators.html_generator - INFO - Generating index page
+2026-01-03 08:27:30,208 - generators.html_generator - INFO - Generated index.html: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\Blog Reflections\index.html
+2026-01-03 08:27:30,208 - __main__ - INFO - Report saved to: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\Blog Reflections\2023\generation_report.txt
+2026-01-03 08:35:16,351 - __main__ - INFO - Input XML: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\2023 Export\blog-12-30-2023.xml
+2026-01-03 08:35:16,351 - __main__ - INFO - Output directory: c:\GIT\dmp\reflection
+2026-01-03 08:35:16,351 - __main__ - INFO - 
+[1/6] Parsing XML file...
+2026-01-03 08:35:16,351 - parsers.xml_parser - INFO - Parsing XML file: c:\Users\tdevr\My Drive\Blog\Digital Memory Palace\2023 Export\blog-12-30-2023.xml
+2026-01-03 08:35:16,382 - parsers.xml_parser - INFO - Found 1877 total entries in XML
+2026-01-03 08:35:16,403 - parsers.xml_parser - INFO - Extracted 1825 blog posts
+2026-01-03 08:35:16,405 - __main__ - INFO - 
+[2/6] Parsing dates from titles...
+2026-01-03 08:35:16,453 - __main__ - INFO - 
+[3/6] Grouping posts by year...
+2026-01-03 08:35:16,453 - __main__ - INFO - 
+[4/6] Processing content...
+2026-01-03 08:35:16,866 - __main__ - INFO - 
+[5/6] Processing years...
+2026-01-03 08:35:16,866 - processors.tag_indexer - INFO - Building tag index from 2 posts
+2026-01-03 08:35:16,866 - processors.tag_indexer - INFO - Indexed 19 unique tags
+2026-01-03 08:35:16,866 - processors.tag_indexer - INFO - Top 10 tags: [('#yearcompass', 1), ('#jas&laughy', 1), ('#breakfastout', 1), ('#jared&kylie', 1), ('#birthday', 1), ('#evo', 1), ('#mum', 1), ('#tim', 1), ('#overwatch', 1), ('#gaming', 1)]
+2026-01-03 08:35:16,867 - generators.json_generator - INFO - Generating JSON data for 2 posts
+2026-01-03 08:35:16,868 - generators.json_generator - INFO - Generated posts.json: c:\GIT\dmp\reflection\2018\data\posts.json
+2026-01-03 08:35:16,868 - generators.json_generator - INFO - Generated metadata.json: c:\GIT\dmp\reflection\2018\data\metadata.json
+2026-01-03 08:35:16,868 - generators.html_generator - INFO - Generating reflection page for 2018
+2026-01-03 08:35:16,870 - generators.html_generator - INFO - Copied static assets to c:\GIT\dmp\reflection\2018\assets
+2026-01-03 08:35:16,870 - generators.html_generator - INFO - Generated reflection.html: c:\GIT\dmp\reflection\2018\reflection.html
+2026-01-03 08:35:16,871 - __main__ - INFO - Report saved to: c:\GIT\dmp\reflection\2018\generation_report.txt
+2026-01-03 08:35:16,871 - processors.tag_indexer - INFO - Building tag index from 364 posts
+2026-01-03 08:35:16,872 - processors.tag_indexer - INFO - Indexed 410 unique tags
+2026-01-03 08:35:16,872 - processors.tag_indexer - INFO - Top 10 tags: [('#aj', 105), ('#work', 86), ('#julie', 53), ('#gym', 42), ('#run', 34), ('#simracing', 34), ('#86', 32), ('#realestate', 18), ('#bangoi', 18), ('#dinnerout', 17)]
+2026-01-03 08:35:16,872 - generators.json_generator - INFO - Generating JSON data for 364 posts
+2026-01-03 08:35:16,880 - generators.json_generator - INFO - Generated posts.json: c:\GIT\dmp\reflection\2019\data\posts.json
+2026-01-03 08:35:16,880 - generators.json_generator - INFO - Generated metadata.json: c:\GIT\dmp\reflection\2019\data\metadata.json
+2026-01-03 08:35:16,880 - generators.html_generator - INFO - Generating reflection page for 2019
+2026-01-03 08:35:16,882 - generators.html_generator - INFO - Copied static assets to c:\GIT\dmp\reflection\2019\assets
+2026-01-03 08:35:16,884 - generators.html_generator - INFO - Generated reflection.html: c:\GIT\dmp\reflection\2019\reflection.html
+2026-01-03 08:35:16,884 - __main__ - INFO - Report saved to: c:\GIT\dmp\reflection\2019\generation_report.txt
+2026-01-03 08:35:16,885 - processors.tag_indexer - INFO - Building tag index from 366 posts
+2026-01-03 08:35:16,885 - processors.tag_indexer - INFO - Indexed 275 unique tags
+2026-01-03 08:35:16,885 - processors.tag_indexer - INFO - Top 10 tags: [('#work', 147), ('#aj', 97), ('#julie', 26), ('#kai', 23), ('#dinner', 23), ('#coffee', 20), ('#86', 19), ('#shopping', 17), ('#lunch', 17), ('#run', 15)]
+2026-01-03 08:35:16,886 - generators.json_generator - INFO - Generating JSON data for 366 posts
+2026-01-03 08:35:16,892 - generators.json_generator - INFO - Generated posts.json: c:\GIT\dmp\reflection\2020\data\posts.json
+2026-01-03 08:35:16,893 - generators.json_generator - INFO - Generated metadata.json: c:\GIT\dmp\reflection\2020\data\metadata.json
+2026-01-03 08:35:16,893 - generators.html_generator - INFO - Generating reflection page for 2020
+2026-01-03 08:35:16,894 - generators.html_generator - INFO - Copied static assets to c:\GIT\dmp\reflection\2020\assets
+2026-01-03 08:35:16,896 - generators.html_generator - INFO - Generated reflection.html: c:\GIT\dmp\reflection\2020\reflection.html
+2026-01-03 08:35:16,896 - __main__ - INFO - Report saved to: c:\GIT\dmp\reflection\2020\generation_report.txt
+2026-01-03 08:35:16,896 - processors.tag_indexer - INFO - Building tag index from 365 posts
+2026-01-03 08:35:16,897 - processors.tag_indexer - INFO - Indexed 278 unique tags
+2026-01-03 08:35:16,897 - processors.tag_indexer - INFO - Top 10 tags: [('#work', 173), ('#aj', 48), ('#kai', 23), ('#86', 19), ('#coffee', 17), ('#julie', 13), ('#birthday', 13), ('#lunch', 12), ('#park', 12), ('#mum', 11)]
+2026-01-03 08:35:16,897 - generators.json_generator - INFO - Generating JSON data for 365 posts
+2026-01-03 08:35:16,903 - generators.json_generator - INFO - Generated posts.json: c:\GIT\dmp\reflection\2021\data\posts.json
+2026-01-03 08:35:16,903 - generators.json_generator - INFO - Generated metadata.json: c:\GIT\dmp\reflection\2021\data\metadata.json
+2026-01-03 08:35:16,904 - generators.html_generator - INFO - Generating reflection page for 2021
+2026-01-03 08:35:16,905 - generators.html_generator - INFO - Copied static assets to c:\GIT\dmp\reflection\2021\assets
+2026-01-03 08:35:16,907 - generators.html_generator - INFO - Generated reflection.html: c:\GIT\dmp\reflection\2021\reflection.html
+2026-01-03 08:35:16,907 - __main__ - INFO - Report saved to: c:\GIT\dmp\reflection\2021\generation_report.txt
+2026-01-03 08:35:16,910 - processors.image_downloader - INFO - Processing images for 369 posts
+2026-01-03 08:35:16,910 - processors.image_downloader - INFO - Found 4 posts with images
+2026-01-03 08:35:16,910 - processors.image_downloader - INFO - Total images to download: 6
+2026-01-03 08:35:30,510 - processors.image_downloader - INFO - Downloaded 6 unique images
+2026-01-03 08:35:30,510 - processors.image_downloader - INFO - Failed downloads: 0
+2026-01-03 08:35:30,510 - processors.tag_indexer - INFO - Building tag index from 369 posts
+2026-01-03 08:35:30,510 - processors.tag_indexer - INFO - Indexed 542 unique tags
+2026-01-03 08:35:30,510 - processors.tag_indexer - INFO - Top 10 tags: [('#work', 83), ('work', 61), ('#kai', 34), ('aj', 31), ('kai', 31), ('#aj', 28), ('#julie', 20), ('julie', 15), ('#mum', 14), ('#lunch', 12)]
+2026-01-03 08:35:30,511 - generators.json_generator - INFO - Generating JSON data for 369 posts
+2026-01-03 08:35:30,519 - generators.json_generator - INFO - Generated posts.json: c:\GIT\dmp\reflection\2022\data\posts.json
+2026-01-03 08:35:30,520 - generators.json_generator - INFO - Generated metadata.json: c:\GIT\dmp\reflection\2022\data\metadata.json
+2026-01-03 08:35:30,520 - generators.html_generator - INFO - Generating reflection page for 2022
+2026-01-03 08:35:30,521 - generators.html_generator - INFO - Copied static assets to c:\GIT\dmp\reflection\2022\assets
+2026-01-03 08:35:30,523 - generators.html_generator - INFO - Generated reflection.html: c:\GIT\dmp\reflection\2022\reflection.html
+2026-01-03 08:35:30,524 - __main__ - INFO - Report saved to: c:\GIT\dmp\reflection\2022\generation_report.txt
+2026-01-03 08:35:30,536 - processors.image_downloader - INFO - Processing images for 357 posts
+2026-01-03 08:35:30,536 - processors.image_downloader - INFO - Found 83 posts with images
+2026-01-03 08:35:30,536 - processors.image_downloader - INFO - Total images to download: 159
+2026-01-03 08:36:10,937 - processors.image_downloader - INFO - Progress: 20/159 images processed
+2026-01-03 08:36:31,106 - processors.image_downloader - INFO - Progress: 30/159 images processed
+2026-01-03 08:37:51,657 - processors.image_downloader - INFO - Progress: 70/159 images processed
+2026-01-03 08:38:30,076 - processors.image_downloader - INFO - Progress: 90/159 images processed
+2026-01-03 08:39:44,714 - processors.image_downloader - INFO - Progress: 130/159 images processed
+2026-01-03 08:40:03,842 - processors.image_downloader - INFO - Progress: 140/159 images processed
+2026-01-03 08:40:40,529 - processors.image_downloader - INFO - Downloaded 159 unique images
+2026-01-03 08:40:40,529 - processors.image_downloader - INFO - Failed downloads: 0
+2026-01-03 08:40:40,529 - processors.tag_indexer - INFO - Building tag index from 357 posts
+2026-01-03 08:40:40,530 - processors.tag_indexer - INFO - Indexed 476 unique tags
+2026-01-03 08:40:40,531 - processors.tag_indexer - INFO - Top 10 tags: [('work', 162), ('aj', 64), ('kai', 58), ('park', 26), ('lunch', 21), ('coffee', 20), ('julie', 19), ('rangeside', 17), ('beer', 14), ('dad', 13)]
+2026-01-03 08:40:40,531 - generators.json_generator - INFO - Generating JSON data for 357 posts
+2026-01-03 08:40:40,538 - generators.json_generator - INFO - Generated posts.json: c:\GIT\dmp\reflection\2023\data\posts.json
+2026-01-03 08:40:40,539 - generators.json_generator - INFO - Generated metadata.json: c:\GIT\dmp\reflection\2023\data\metadata.json
+2026-01-03 08:40:40,539 - generators.html_generator - INFO - Generating reflection page for 2023
+2026-01-03 08:40:40,550 - generators.html_generator - INFO - Copied static assets to c:\GIT\dmp\reflection\2023\assets
+2026-01-03 08:40:40,552 - generators.html_generator - INFO - Generated reflection.html: c:\GIT\dmp\reflection\2023\reflection.html
+2026-01-03 08:40:40,552 - __main__ - INFO - Report saved to: c:\GIT\dmp\reflection\2023\generation_report.txt
+2026-01-03 08:40:40,553 - processors.tag_indexer - INFO - Building tag index from 2 posts
+2026-01-03 08:40:40,553 - processors.tag_indexer - INFO - Indexed 5 unique tags
+2026-01-03 08:40:40,553 - processors.tag_indexer - INFO - Top 10 tags: [('#work', 1), ('ba ngoi', 1), ('repairs', 1), ('garage', 1), ('tip', 1)]
+2026-01-03 08:40:40,553 - generators.json_generator - INFO - Generating JSON data for 2 posts
+2026-01-03 08:40:40,554 - generators.json_generator - INFO - Generated posts.json: c:\GIT\dmp\reflection\2026\data\posts.json
+2026-01-03 08:40:40,554 - generators.json_generator - INFO - Generated metadata.json: c:\GIT\dmp\reflection\2026\data\metadata.json
+2026-01-03 08:40:40,555 - generators.html_generator - INFO - Generating reflection page for 2026
+2026-01-03 08:40:40,556 - generators.html_generator - INFO - Copied static assets to c:\GIT\dmp\reflection\2026\assets
+2026-01-03 08:40:40,557 - generators.html_generator - INFO - Generated reflection.html: c:\GIT\dmp\reflection\2026\reflection.html
+2026-01-03 08:40:40,557 - __main__ - INFO - Report saved to: c:\GIT\dmp\reflection\2026\generation_report.txt
+2026-01-03 08:40:40,557 - __main__ - INFO - 
+[6/6] Generating master index page...
+2026-01-03 08:40:40,557 - generators.html_generator - INFO - Generating index page
+2026-01-03 08:40:40,558 - generators.html_generator - INFO - Generated index.html: c:\GIT\dmp\reflection\index.html

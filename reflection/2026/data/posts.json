@@ -1,0 +1,132 @@
+{
+  "year": 2026,
+  "totalPosts": 2,
+  "postsWithImages": 0,
+  "totalTags": 5,
+  "posts": [
+    {
+      "id": "tag:blogger.com,1999:blog-543349249682045951.post-4371388100929499830",
+      "date": "2026-03-24",
+      "title": "Wednesday 24th, March ",
+      "content": "Caught up Hien to talk career pathways WITH Braden ",
+      "preview": "Caught up Hien to talk career pathways WITH Braden",
+      "labels": [
+        "#work"
+      ],
+      "hasImages": false,
+      "monthIndex": 2,
+      "dayOfYear": 83
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-543349249682045951.post-4027329242966502860",
+      "date": "2026-04-29",
+      "title": "Saturday 29th April, ",
+      "content": "Cleared out all of the boxes from the study furniture to the tip, along with the old desk and chairs. The garage was now clear of crap after the study build. It was still a lot of space<div><br/></div><div>Went to Ba Ngoi's and fixed her smoke alarm - but I couldn't fix the leaky tap, as I need to buy a new one. Struggled to shut the water off. </div>",
+      "preview": "Cleared out all of the boxes from the study furniture to the tip, along with the old desk and chairs. The garage was now clear of crap after the study build. It was still a lot of space Went to Ba...",
+      "labels": [
+        "ba Ngoi",
+        "repairs",
+        "garage",
+        "tip"
+      ],
+      "hasImages": false,
+      "monthIndex": 3,
+      "dayOfYear": 119
+    }
+  ],
+  "tagIndex": {
+    "tags": {
+      "#work": [
+        "tag:blogger.com,1999:blog-543349249682045951.post-4371388100929499830"
+      ],
+      "ba ngoi": [
+        "tag:blogger.com,1999:blog-543349249682045951.post-4027329242966502860"
+      ],
+      "repairs": [
+        "tag:blogger.com,1999:blog-543349249682045951.post-4027329242966502860"
+      ],
+      "garage": [
+        "tag:blogger.com,1999:blog-543349249682045951.post-4027329242966502860"
+      ],
+      "tip": [
+        "tag:blogger.com,1999:blog-543349249682045951.post-4027329242966502860"
+      ]
+    },
+    "frequencies": {
+      "#work": 1,
+      "ba ngoi": 1,
+      "repairs": 1,
+      "garage": 1,
+      "tip": 1
+    },
+    "all Tags": [
+      "#work",
+      "ba ngoi",
+      "garage",
+      "repairs",
+      "tip"
+    ]
+  },
+  "monthSummary": {
+    "0": {
+      "name": "January",
+      "count": 0,
+      "hasImages": 0
+    },
+    "1": {
+      "name": "February",
+      "count": 0,
+      "hasImages": 0
+    },
+    "2": {
+      "name": "March",
+      "count": 1,
+      "hasImages": 0
+    },
+    "3": {
+      "name": "April",
+      "count": 1,
+      "hasImages": 0
+    },
+    "4": {
+      "name": "May",
+      "count": 0,
+      "hasImages": 0
+    },
+    "5": {
+      "name": "June",
+      "count": 0,
+      "hasImages": 0
+    },
+    "6": {
+      "name": "July",
+      "count": 0,
+      "hasImages": 0
+    },
+    "7": {
+      "name": "August",
+      "count": 0,
+      "hasImages": 0
+    },
+    "8": {
+      "name": "September",
+      "count": 0,
+      "hasImages": 0
+    },
+    "9": {
+      "name": "October",
+      "count": 0,
+      "hasImages": 0
+    },
+    "10": {
+      "name": "November",
+      "count": 0,
+      "hasImages": 0
+    },
+    "11": {
+      "name": "December",
+      "count": 0,
+      "hasImages": 0
+    }
+  }
+}

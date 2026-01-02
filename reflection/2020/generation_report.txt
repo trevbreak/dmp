@@ -1,0 +1,33 @@
+Blogger XML to Yearly Reflection - Generation Report
+============================================================
+
+Generated: 2026-01-03 08:35:16
+Year: 2020
+
+Statistics:
+  Total Posts: 366
+  Posts with Images: 0
+  Total Tags: 275
+  Total Images: 0
+
+Top 20 Tags:
+   1. #work                          147
+   2. #aj                             97
+   3. #julie                          26
+   4. #kai                            23
+   5. #dinner                         23
+   6. #coffee                         20
+   7. #86                             19
+   8. #shopping                       17
+   9. #lunch                          17
+  10. #run                            15
+  11. #bangoi                         13
+  12. #gym                            12
+  13. #sick                           12
+  14. #thomas                         12
+  15. #alex                           12
+  16. #swimming                       11
+  17. #car                            11
+  18. #takeout                        11
+  19. #nathan                         11
+  20. #dad                            10

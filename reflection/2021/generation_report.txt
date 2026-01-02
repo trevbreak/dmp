@@ -1,0 +1,33 @@
+Blogger XML to Yearly Reflection - Generation Report
+============================================================
+
+Generated: 2026-01-03 08:35:16
+Year: 2021
+
+Statistics:
+  Total Posts: 365
+  Posts with Images: 0
+  Total Tags: 278
+  Total Images: 0
+
+Top 20 Tags:
+   1. #work                          173
+   2. #aj                             48
+   3. #kai                            23
+   4. #86                             19
+   5. #coffee                         17
+   6. #julie                          13
+   7. #birthday                       13
+   8. #lunch                          12
+   9. #park                           12
+  10. #mum                            11
+  11. #housebuild                     11
+  12. #realestate                     10
+  13. #tim                             9
+  14. #fabiamontecarlo                 9
+  15. #thebrickhouse                   8
+  16. #soccer                          8
+  17. #mechanic                        8
+  18. #jonlauren                       8
+  19. #nathan                          8
+  20. #jas                             8

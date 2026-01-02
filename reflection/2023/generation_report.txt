@@ -1,0 +1,33 @@
+Blogger XML to Yearly Reflection - Generation Report
+============================================================
+
+Generated: 2026-01-03 08:40:40
+Year: 2023
+
+Statistics:
+  Total Posts: 357
+  Posts with Images: 83
+  Total Tags: 476
+  Total Images: 159
+
+Top 20 Tags:
+   1. work                           162
+   2. aj                              64
+   3. kai                             58
+   4. park                            26
+   5. lunch                           21
+   6. coffee                          20
+   7. julie                           19
+   8. rangeside                       17
+   9. beer                            14
+  10. dad                             13
+  11. birthday                        12
+  12. enzo                            11
+  13. dinner                          11
+  14. run                             11
+  15. shopping                        11
+  16. soccer                          11
+  17. sick                            11
+  18. mum                             11
+  19. house                           11
+  20. car                              9

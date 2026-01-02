@@ -1,0 +1,33 @@
+Blogger XML to Yearly Reflection - Generation Report
+============================================================
+
+Generated: 2026-01-03 08:35:30
+Year: 2022
+
+Statistics:
+  Total Posts: 369
+  Posts with Images: 4
+  Total Tags: 542
+  Total Images: 6
+
+Top 20 Tags:
+   1. #work                           83
+   2. work                            61
+   3. #kai                            34
+   4. aj                              31
+   5. kai                             31
+   6. #aj                             28
+   7. #julie                          20
+   8. julie                           15
+   9. #mum                            14
+  10. #lunch                          12
+  11. #covid                          11
+  12. #birthday                       11
+  13. #coffee                         10
+  14. sick                            10
+  15. tim                              9
+  16. mum                              9
+  17. #dinnerout                       9
+  18. park                             8
+  19. #dad                             8
+  20. #park                            8
