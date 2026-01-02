@@ -8,26 +8,23 @@ This tool extracts blog posts from Blogger XML exports, **automatically detects 
 
 ## Features
 
-- **Automatic Year Detection**: Processes all years found in your XML export
-- **XML Parsing**: Extracts all posts from Blogger Atom feed exports
-- **Smart Date Parsing**: Parses dates from post titles with multiple fallback strategies
-- **Image Management**: Downloads all images locally, organized by month
-- **Tag Filtering**: Interactive client-side tag filtering with instant results
-- **Book/Journal Theme**: Beautiful, readable design with serif fonts and paper-like aesthetics
-- **Responsive Design**: Works on desktop, tablet, and mobile devices
+*   **Automatic Year Detection**: Processes all years found in your XML export
+*   **XML Parsing**: Extracts all posts from Blogger Atom feed exports
+*   **Smart Date Parsing**: Parses dates from post titles with multiple fallback strategies
+*   **Image Management**: Downloads all images locally, organized by month
+*   **Tag Filtering**: Interactive client-side tag filtering with instant results
+*   **Book/Journal Theme**: Beautiful, readable design with serif fonts and paper-like aesthetics
+*   **Responsive Design**: Works on desktop, tablet, and mobile devices
 
 ## Requirements
 
-- Python 3.8+
-- Dependencies listed in `requirements.txt`
+*   Python 3.8+
+*   Dependencies listed in `requirements.txt`
 
 ## Installation
 
-1. Clone or download this repository
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1.  Clone or download this repository
+2.  Install dependencies:
 
 ## Usage
 
@@ -35,20 +32,13 @@ This tool extracts blog posts from Blogger XML exports, **automatically detects 
 
 The generator automatically detects all years from the XML file and creates reflections for each year.
 
-1. Run the generator with your Blogger XML export:
-   ```bash
-   cd src
-   python main.py "path/to/your/blogger-export.xml"
-   ```
+Run the generator with your Blogger XML export:
 
-2. Open the generated index page:
-   ```
-   c:\GIT\dmp\reflection\index.html
-   ```
+Open the generated index page:
 
 ### Command Line Options
 
-```bash
+```
 # Basic usage - processes default XML file from config.py
 python main.py
 
@@ -61,17 +51,18 @@ python main.py "path/to/export.xml" --output-dir "c:/my/output/dir"
 
 ### Example
 
-```bash
+```
 cd c:/GIT/dmp/src
 python main.py "c:/Users/tdevr/My Drive/Blog/Digital Memory Palace/2023 Export/blog-12-30-2023.xml"
 ```
 
 This will:
-- Parse all 1,825 posts from the XML
-- Automatically detect all years (2018-2026 in this example)
-- Download all images organized by year and month
-- Generate reflection pages for each year
-- Create a master index page to navigate between years
+
+*   Parse all posts from the XML
+*   Automatically detect all years (2018-2026 in this example) from the title of the post
+*   Download all images organized by year and month
+*   Generate reflection pages for each year
+*   Create a master index page to navigate between years
 
 ## Generated Output
 
@@ -96,69 +87,49 @@ reflection/
 └── ... (all detected years)
 ```
 
-## Results Summary
-
-### Latest Run Results (2023 Export)
-
-- **Total Posts**: 1,825 posts across all years
-- **Years Detected**: 7 years (2018, 2019, 2020, 2021, 2022, 2023, 2026)
-- **Date Parsing**: 100% success rate
-- **Images Downloaded**: 165 images (159 for 2023, 6 for 2022)
-- **Processing Time**: ~5 minutes
-
-### Per-Year Breakdown
-
-| Year | Posts | Images | Tags | Top Tag |
-|------|-------|--------|------|---------|
-| 2018 | 2     | 0      | 19   | Various |
-| 2019 | 364   | 0      | 410  | #aj (105) |
-| 2020 | 366   | 0      | 275  | #work (147) |
-| 2021 | 365   | 0      | 278  | #work (173) |
-| 2022 | 369   | 6      | 542  | #work (83) |
-| 2023 | 357   | 159    | 476  | work (162) |
-| 2026 | 2     | 0      | 5    | Various |
-
 ## Features in Detail
 
 ### Automatic Year Detection
 
 The tool automatically:
-1. Parses dates from all post titles
-2. Groups posts by year
-3. Generates a separate reflection page for each year
-4. Creates a master index page with links to all years
+
+1.  Parses dates from all post titles
+2.  Groups posts by year
+3.  Generates a separate reflection page for each year
+4.  Creates a master index page with links to all years
 
 No need to manually specify years - just point it at your XML file!
 
 ### Date Parsing
 
 The tool uses multiple strategies to parse dates from post titles:
-1. Remove ordinal suffixes (1st, 2nd, 3rd, etc.) and use dateutil
-2. Regex pattern matching for exact formats
-3. Fallback to ISO published date if title parsing fails
+
+1.  Remove ordinal suffixes (1st, 2nd, 3rd, etc.) and use dateutil
+2.  Regex pattern matching for exact formats
+3.  Fallback to ISO published date if title parsing fails
 
 ### Image Downloading
 
-- Downloads all `blogger.googleusercontent.com` images
-- Organizes by year and month (2023/jan/, 2023/feb/, etc.)
-- Retry logic with exponential backoff (3 attempts)
-- Updates HTML to reference local paths
-- Maintains original URLs as fallback if download fails
+*   Downloads all `blogger.googleusercontent.com` images
+*   Organizes by year and month (2023/jan/, 2023/feb/, etc.)
+*   Retry logic with exponential backoff (3 attempts)
+*   Updates HTML to reference local paths
+*   Maintains original URLs as fallback if download fails
 
 ### Tag Filtering
 
-- Client-side JavaScript for instant filtering
-- AND logic: Posts must match ALL active tags
-- Shows/hides posts without page reload
-- Automatically hides empty month sections
+*   Client-side JavaScript for instant filtering
+*   AND logic: Posts must match ALL active tags
+*   Shows/hides posts without page reload
+*   Automatically hides empty month sections
 
 ### Book/Journal Theme
 
-- Serif fonts (Georgia) for readability
-- Cream/paper background (#f9f7f4)
-- Warm brown accent color (#8b7355)
-- Post cards with left border accent
-- Subtle shadows and hover effects
+*   Serif fonts (Georgia) for readability
+*   Cream/paper background (#f9f7f4)
+*   Warm brown accent color (#8b7355)
+*   Post cards with left border accent
+*   Subtle shadows and hover effects
 
 ## Project Structure
 
@@ -190,20 +161,21 @@ dmp/
 
 Edit `src/config.py` to customize default settings:
 
-- `xml_file`: Default XML file path
-- `output_dir`: Output directory (default: `c:\GIT\dmp\reflection`)
-- `image_timeout`: Timeout for image downloads (default: 30s)
-- `image_retry_count`: Number of retry attempts (default: 3)
-- `max_preview_length`: Length of post previews (default: 200)
+*   `xml_file`: Default XML file path
+*   `output_dir`: Output directory (default: `c:\GIT\dmp\reflection`)
+*   `image_timeout`: Timeout for image downloads (default: 30s)
+*   `image_retry_count`: Number of retry attempts (default: 3)
+*   `max_preview_length`: Length of post previews (default: 200)
 
 ## Logging
 
 Logs are written to both console and `blog_reflection_generator.log` file with detailed information about:
-- Posts extracted
-- Date parsing success rate
-- Image download progress (every 10 images)
-- Tag indexing results
-- Any errors or warnings
+
+*   Posts extracted
+*   Date parsing success rate
+*   Image download progress (every 10 images)
+*   Tag indexing results
+*   Any errors or warnings
 
 ## Troubleshooting
 
@@ -212,19 +184,21 @@ Logs are written to both console and `blog_reflection_generator.log` file with d
 **Issue**: Message shows "No posts with valid dates found"
 
 **Solution**:
-- Check that your XML file has proper post titles with dates
-- Look at the log for date parsing failures
-- Verify the XML file is a valid Blogger export
+
+*   Check that your XML file has proper post titles with dates
+*   Look at the log for date parsing failures
+*   Verify the XML file is a valid Blogger export
 
 ### Image download failures
 
 **Issue**: Some images fail to download
 
 **Solution**:
-- Check your internet connection
-- Images may have been deleted from Blogger
-- Original URLs are kept as fallback
-- Check `failed_downloads` in the generation report
+
+*   Check your internet connection
+*   Images may have been deleted from Blogger
+*   Original URLs are kept as fallback
+*   Check `failed_downloads` in the generation report
 
 ### Unicode errors on Windows
 
@@ -235,12 +209,13 @@ Logs are written to both console and `blog_reflection_generator.log` file with d
 ## Future Enhancements
 
 Potential features for future versions:
-- PDF export option
-- Full-text search functionality
-- Tag cloud visualization
-- Year comparison features
-- Support for other blog platforms
-- Incremental updates (only process new posts)
+
+*   PDF export option
+*   Full-text search functionality
+*   Tag cloud visualization
+*   Year comparison features
+*   Support for other blog platforms
+*   Incremental updates (only process new posts)
 
 ## License
 
@@ -248,4 +223,17 @@ This tool is provided as-is for personal use.
 
 ## Author
 
-Generated for Trevor's Digital Memory Palace project - January 2026
+Generated for Digital Memory Palace project - January 2026
+
+```
+c:\GIT\dmp\reflection\index.html
+```
+
+```
+cd src
+python main.py "path/to/your/blogger-export.xml"
+```
+
+```
+pip install -r requirements.txt
+```
